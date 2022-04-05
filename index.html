@@ -82,11 +82,11 @@
         <div class="bell"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
           <path fill="currentColor" d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z" />
           </svg></div>
-        <div class="small_avatar"><img src="assets/frog.png" height="24px" width="24px"></div>
+        <div class="small_avatar avatar_2"><img src="assets/frog.png" height="24px" width="24px"></div>
         <div>Eric Romano</div>
       </div>
       <div class="welcome">
-        <div class="big_avatar"><img src="assets/frog.png" height="48px" width="48px"></div>
+        <div class="big_avatar avatar_2"><img src="assets/frog.png" height="48px" width="48px"></div>
         <div class="hi">Hi there,</div>
         <div>Eric Romano (@eric)</div>
       </div>
@@ -97,11 +97,12 @@
       </div>
       <div></div>
     </div>
-    <div class="info_screen">
-      <div class="info_sections">
-        <div class="projects"></div>
-          <div class="project_title">Your Projects</div>
+    <div class="info_sections">
+      <div class="projects info_section">
+        <div class="info_title">Your Projects</div>
+        <div class="project_cards">
           <div class="project_card">
+            <div class="project_card_left_border"></div>
             <div class="card_title">Super Cool Project</div>
             <div class="card_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed augue lacus viverra.</div>
             <div class="card_actions">
@@ -111,6 +112,7 @@
             </div>
           </div>
           <div class="project_card">
+            <div class="project_card_left_border"></div>
             <div class="card_title">Less Cool Project</div>
             <div class="card_content">Porta lorem mollis aliquam ut porttitor leo. Velit egestas dui id ornare arcu. Nisl condimentum id venenatis a. Blandit libero volutpat sed cras ornare.</div>
             <div class="card_actions">
@@ -120,6 +122,7 @@
             </div>
           </div>
           <div class="project_card">
+            <div class="project_card_left_border"></div>
             <div class="card_title">Impossible App</div>
             <div class="card_content">In metus vulputate eu scelerisque felis. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Integer quis auctor elit sed vulputate mi sit amet.</div>
             <div class="card_actions">
@@ -129,6 +132,7 @@
             </div>
           </div>
           <div class="project_card">
+            <div class="project_card_left_border"></div>
             <div class="card_title">Easy Peasy App</div>
             <div class="card_content">Scelerisque varius morbi enim nunc faucibus a pellentesque. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus.</div>
             <div class="card_actions">
@@ -138,6 +142,7 @@
             </div>
           </div>
           <div class="project_card">
+            <div class="project_card_left_border"></div>
             <div class="card_title">Icon Source</div>
             <div class="card_content"><a href="https://www.flaticon.com/free-icons/animals" title="animals icons">Animals icons created by Freepik - Flaticon</a></div>
             <div class="card_actions">
@@ -147,6 +152,7 @@
             </div>
           </div>
           <div class="project_card">
+            <div class="project_card_left_border"></div>
             <div class="card_title">Money Maker</div>
             <div class="card_content">Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Vulputate enim nulla aliquet porttitor lacus luctus accumsan.</div>
             <div class="card_actions">
@@ -155,46 +161,47 @@
               <div class="share"></div>
             </div>
           </div>
-        <div class="announcements">
-          <div class="project_title">Announcements</div>
-          <div class="announcement_card">
-            <div class="announcement">
-              <div class="announcement_title">Site Maintenance</div>
-              <div clas="announcement_body">Ac tincidunt vitae semper quis lectus. Pellentesque dignissim enim sit amet venenatis urna cursus.</div>
-            </div>
-            <div class="announcement">
-              <div class="announcement_title">Community Share Day</div>
-              <div clas="announcement_body">Hac habitasse platea dictumst quisque sagittis. Sapien faucibus et molestie ac feugiat sed lectus.</div>
-            </div>
-            <div class="announcement">
-              <div class="announcement_title">Updated Privacy Policy</div>
-              <div clas="announcement_body">In nisl nisi scelerisque eu ultrices vitae auctor. Id ornare arcu odio ut sem nulla.</div>
-            </div>
+        </div>
+      </div>
+      <div class="announcements info_section">
+        <div class="info_title">Announcements</div>
+        <div class="announcement_card">
+          <div class="announcement">
+            <div class="announcement_title">Site Maintenance</div>
+            <div clas="announcement_body">Ac tincidunt vitae semper quis lectus. Pellentesque dignissim enim sit amet venenatis urna cursus.</div>
+          </div>
+          <div class="announcement middle_announcement">
+            <div class="announcement_title">Community Share Day</div>
+            <div clas="announcement_body">Hac habitasse platea dictumst quisque sagittis. Sapien faucibus et molestie ac feugiat sed lectus.</div>
+          </div>
+          <div class="announcement">
+            <div class="announcement_title">Updated Privacy Policy</div>
+            <div clas="announcement_body">In nisl nisi scelerisque eu ultrices vitae auctor. Id ornare arcu odio ut sem nulla.</div>
           </div>
         </div>
-        <div class="trending">
-          <div class="project_title">Trending</div>
-          <div class="trending_card">
-            <div class="trending_topics">
-              <div class="avatar"></div>
-              <div class="trending_name">@tegan</div>
-              <div class="trending_topic">World Peace Builder</div>
-            </div>
-            <div class="trending_topics">
-              <div class="avatar"></div>
-              <div class="trending_name">@eric</div>
-              <div class="trending_topic">Super Cool Project</div>
-            </div>
-            <div class="trending_topics">
-              <div class="avatar"></div>
-              <div class="trending_name">@kendall</div>
-              <div class="trending_topic">Life Changing App</div>
-            </div>
-            <div class="trending_topics">
-              <div class="avatar"></div>
-              <div class="trending_name">@alex</div>
-              <div class="trending_topic">No Traffic Maker</div>
-            </div>
+      </div>
+      <div class="trending info_section">
+        <div class="info_title">Trending</div>
+        <div class="trending_card">
+          <div class="trending_topics">
+            <div class="trending_avatar  avatar_1"><img src="assets/crab.png" height="24px" width="24px"></div>
+            <div class="trending_name">@tegan</div>
+            <div class="trending_topic">World Peace Builder</div>
+          </div>
+          <div class="trending_topics">
+            <div class="trending_avatar  avatar_2"><img src="assets/frog.png" height="24px" width="24px"></div>
+            <div class="trending_name">@eric</div>
+            <div class="trending_topic">Super Cool Project</div>
+          </div>
+          <div class="trending_topics">
+            <div class="trending_avatar  avatar_3"><img src="assets/sloth.png" height="24px" width="24px"></div>
+            <div class="trending_name">@kendall</div>
+            <div class="trending_topic">Life Changing App</div>
+          </div>
+          <div class="trending_topics">
+            <div class="trending_avatar  avatar_4"><img src="assets/walrus.png" height="24px" width="24px"></div>
+            <div class="trending_name">@alex</div>
+            <div class="trending_topic">No Traffic Maker</div>
           </div>
         </div>
       </div>
